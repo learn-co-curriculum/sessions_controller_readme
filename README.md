@@ -47,7 +47,7 @@ We're not going to do any of that right now. Our sessions controller is just goi
 
       def create
         session[:username] = params[:username]
-	redirect '/'
+	redirect_to '/'
       end
     end
 ```
@@ -89,3 +89,5 @@ At its base, login is very simple: the user provides you with credentials in a P
   * [Rails Tutorial Chapter 8 — Log in, log out][log_in_log_out]
 
 [log_in_log_out]: https://www.railstutorial.org/book/log_in_log_out
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/sessions_controller_readme'>Sessions Controller</a> on Learn.co and start learning to code for free.</p>
