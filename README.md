@@ -91,3 +91,8 @@ It's tempting, but don't attach this to a `get` route. HTTP specifies that `get`
 ## Conclusion
 
 At its base, login is very simple: the user provides you with credentials in a POST, you verify those credentials and set a token in the `session`. In this example, our token was literally the username the user typed. In a more complex app, it would most likely be their user id.
+
+## Resources
+
+- [Rails Tutorial: Log in, Log out](https://3rd-edition.railstutorial.org/book/log_in_log_out#sec-sessions_and_failed_login)
+
